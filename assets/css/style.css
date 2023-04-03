@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  height: 100vh;
+  background-color: black;
+}
+.container {
+  background-color: white;
+  width: 30%;
+}
+.center {
+  display: flex;
+  justify-content: center; /* Ini akan membuat tombol menjadi pusat secara horizontal */
+  align-items: center; /* Ini akan membuat tombol menjadi pusat secara vertikal */
+}
